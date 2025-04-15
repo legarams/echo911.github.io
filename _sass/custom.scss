@@ -1,0 +1,9 @@
+$primary: #0A2342;    // Echo911's dark blue
+$accent: #D72638;     // Emergency red
+$text: #FFFFFF;       // White text
+
+body {
+  background: linear-gradient(180deg, $primary 0%, darken($primary, 10%) 100%);
+}
+
+a { color: $accent; }
